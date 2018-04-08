@@ -79,6 +79,9 @@ Galeria
 	width: 100%;
 }
 #galeria ul{
+	position: relative;
+	right: -195px;
+	float:  right;
 	padding: 20px;
 }
 #galeria ul li{
@@ -91,6 +94,7 @@ Galeria
 	opacity: .6;
 }
 #galeria ul li img{
+
 	width: 100%;
 }
 /*=============================================

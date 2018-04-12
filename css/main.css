@@ -54,7 +54,10 @@ header #logotipo {
     width: 170px;
     height: 80px;
 }
-
+#botones{
+    position: relative; 
+    left:   350px;
+}
 header nav ul li a {
     display: block;
     position: relative;

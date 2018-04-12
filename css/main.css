@@ -43,6 +43,8 @@ CABEZOTE
 #cabezote {
     background-color: rgb(218, 218, 218);
     opacity: 0.9;
+    position: relative;
+    width: 1300px;
 
     }
 
@@ -71,6 +73,9 @@ nav{
     top:25px;
     background-color: #D5D5D5;
     width: 50px;
+}
+header{
+
 }
 header nav ul li a {
     display: block;

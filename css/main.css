@@ -43,7 +43,8 @@ CABEZOTE
 #cabezote {
     background-color: rgb(218, 218, 218);
     opacity: 0.9;
-}
+
+    }
 
 header #logotipo {
     text-align: center;
@@ -54,17 +55,30 @@ header #logotipo {
     width: 170px;
     height: 80px;
 }
-#botones{
-    position: relative; 
-    left:   350px;
+
+#botones2 {    
+    position: relative;
+    left:100px;
+    top:-9px;
+    text-align: center;
+}
+#botones2 li {    
+    position: relative;
+    top:-25px;
+}
+nav{
+    position: relative;
+    top:25px;
+    background-color: #D5D5D5;
+    width: 50px;
 }
 header nav ul li a {
     display: block;
     position: relative;
-    width: 100px;
+    width: 105px;
+    height: 65px;
     background: #333;
     text-align: center;
-    padding: 10px;
     color: white;
 }
 
@@ -301,7 +315,7 @@ Redes Sociales
 #derechos {
     position: absolute;
     bottom: 8px;
-    top: 680px;
+    top: 700px;
     left: 450px;
     text-align: center;
 }

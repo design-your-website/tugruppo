@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>tugruppo</title>
-    <link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+   <link href="libs/materialize/css/materialize.min.css" rel="stylesheet">
     <link rel="incon" href="img/icono.jpg">
     <link rel=icon href="img/Artistas/cropped-Logo2-32x32.png" sizes="16x16" type="image/png">
     <link rel="stylesheet" href="css/main.css">
@@ -19,11 +19,11 @@
         <figure id="logotipo" class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
             <img src="img/Artistas/cropped-Logo2.png" alt="Logo">
         </figure>
-        <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0">
+        <div class="col-lg-3 col-md-2 col-sm-1 col-xs-0">
             <br>
         </div>
         <nav class="col-lg-6 col-md-2 col-sm-8 col-xs-12">
-            <ul id="botones">
+            <ul id="botones2">
                 <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#img-principal">Inicio</a></li>
                 <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#galeria">Artistas</a></li>
                 <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#cabezote">Informacion</a></li>
@@ -82,9 +82,11 @@
             
                 <label for="mensaje">Dejanos un mensaje <span class="obligatorio"></span></label>
                 <label for="mensaje"></label>
-                <textarea id="mensaje" rows="5"></textarea>
+                <textarea id="mensaje" rows="100"></textarea>
+
                 <label id="labelEnviar"></label>
-                <input type="submit" value="Enviar">
+                <input class="waves-effect waves-light btn-large" type="submit" value="Enviar">
+                
             </form>
             <div id="redes">
                 <center>
@@ -122,7 +124,7 @@
             </div>
         </div>
     </footer>
-    <script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="libs/materialize/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

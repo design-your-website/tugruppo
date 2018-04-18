@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>tugruppo</title>
-   <link href="libs/materialize/css/materialize.min.css" rel="stylesheet">
+    <link href="libs/materialize/css/materialize.min.css" rel="stylesheet">
     <link rel="incon" href="img/icono.jpg">
     <link rel=icon href="img/Artistas/cropped-Logo2-32x32.png" sizes="16x16" type="image/png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -42,9 +43,6 @@
     ======================================<-->
     <div id="galeria" class="row">
         <ul>
-
-
-
             <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><a href="salsa.html"><img src="img/Artistas/Artistas2.png"></a></li>
             <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/Artistas/Artistas1.png"></li>
             <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/Artistas/Artistas1.png"></li>
@@ -67,19 +65,18 @@
     <!--=====================================
       Informacion
 ======================================-->
-<div id="informacion"> 
-<h2>Quienes Somos</h2>
-<div id="quienes1">
-<img src="img/Artistas/flyer Web-05.jpg">
-</div>
-<div id="quienes2">
-<img src="img/Artistas/quienes.jpg">
-</div>
-<p> 
-Somos un portal en el cual puedes encontrar tu artista o agrupacion deseado, para tu evento. Recuerda que tenemos contacto directo con los artistas para que la contratacion con estos sea mas sencilla y directa.
-</p>
-</div>   
-
+    <div id="informacion">
+        <h2>Quienes Somos</h2>
+        <div id="quienes1">
+            <img src="img/Artistas/flyer Web-05.jpg">
+        </div>
+        <div id="quienes2">
+            <img src="img/Artistas/quienes.jpg">
+        </div>
+        <p>
+            Somos un portal en el cual puedes encontrar tu artista o agrupacion deseado, para tu evento. Recuerda que tenemos contacto directo con los artistas para que la contratacion con estos sea mas sencilla y directa.
+        </p>
+    </div>
     <!--=====================================
       footer
 ======================================-->
@@ -90,52 +87,63 @@ Somos un portal en el cual puedes encontrar tu artista o agrupacion deseado, par
             <hr>
         </center>
     </h1>
-        <div id="formulario" action="Formulario.php" class="row">
-            <form method="post" onsubmit="return m.validarFormulario()">
-                <h1>Ingrese sus datos</h1>
-                <label for="nombre">Ingrese su nombre <span class="obligatorio"></span></label>
-                <input id="nombre" class="validar" type="text" maxlength="10">
-                <label for="email">Ingrese su correo electronico <span class="obligatorio"></span></label>
-                <input id="email" class="validar" type="text">
-                <label for="tel">Ingrese su telefono <span class="obligatorio"></span></label>
-                <input id="tel" class="validar" type="number">
-            
-                <label for="mensaje">Dejanos un mensaje <span class="obligatorio"></span></label>
-                <label for="mensaje"></label>
-                <textarea id="mensaje" rows="100"></textarea>
-
-                <label id="labelEnviar"></label>
-               <a id="botonEnviar" class="waves-effect waves-light btn-large" type="submit" value="Enviar">Enviar </a>
-                
+        <div action="Formulario.php" class="row">
+            <form class="col s12" method="post" onsubmit="return m.validarFormulario()">
+                <h3>Ingrese sus datos</h3>
+                <div class="row">
+                    <div class="input-field col s3">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Ingrese su Nombre</label>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s3">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">Ingrese su Telefono</label>
+                        </div>
+                    </div>
+                    <div class="input-field col s3">
+                        <i class="material-icons prefix">email</i>
+                        <input id="icon_email" type="tel" class="validate">
+                        <label for="icon_email">Ingrese su Email</label>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s3">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Dejanos un Mensaje</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s3">
+                            <label id="labelEnviar"></label>
+                            <a id="botonEnviar" class="waves-effect waves-light btn-large" type="submit" value="Enviar">Enviar </a>
+                        </div>
+                    </div>
             </form>
-             
-
+            </div>
             <div id="redes">
                 <center>
-                    <p><b>Direccion:</b>Manizales,Caldas</p>
-                    <p><b>Email:</b>tugruppo@gmail.com</p>
-                    <p id="tel"><b>Telefono:</b>+573012889880</p>
+                    <div id="datos">
+                        <p><b>Direccion:</b>Manizales,Caldas</p>
+                        <p><b>Email:</b>tugruppo@gmail.com</p>
+                        <p id="tel"><b>Telefono:</b>+573012889880</p>
+                    </div>
                     <table>
                         <tr>
                             <td id="vinculo">
                                 <div class="socialw fadeInDown">
-                                    <!-- Facebook !-->
                                     <a href="https://www.facebook.com/" target="_blank">
                                         <div class="social"><img src="https://i.imgur.com/PY2EPRW.png" /></div>
                                     </a>
-                                    <!-- Facebook !-->
-                                    <!-- Twitter !-->
                                     <a href="https://twitter.com/" target="_blank">
                                         <div class="social"> <img src="https://i.imgur.com/ny0pyqt.png" /> </div>
                                     </a>
-                                    <!-- Twitter !-->
-                                    <!-- Intagram !-->
                                     <a href="https://www.instagram.com" target="_blank">
                                         <div class="social"> <img src="https://i.imgur.com/tZZG2zQ.png" /></div>
                                     </a>
-                                    <!-- Instagram !-->
                                 </div>
-                                <!-- Social Icons End !-->
                                 </ </td>
                         </tr>
                     </table>

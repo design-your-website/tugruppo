@@ -100,7 +100,7 @@ inicio
 #img-principal {
     position: relative;
     top: 0px;
-    width: 1249px;
+    width: 1289px;
     height: 500px;
 }
 
@@ -117,7 +117,6 @@ Galeria
 #galeria {
     position: relative;
     margin: auto;
-    left: 20px;
     width: 100%;
 }
 
@@ -228,11 +227,41 @@ Formulario
 /*========================================
 Redes Sociales
 =============================================*/
+footer{
+    background-color: rgb(218, 218, 218); 
+    height: 670px;
+}
+#datos{
+    position: relative;
+    left: 275px;
+    top:200px;
+}
 
 #vinculo {
     position: absolute;
     right: -100px;
 
+}
+
+#redes {
+    position: absolute;
+    right: 440px;
+    top: 250px;
+    text-align: center;
+}
+#redes1 {
+    font-size: 5px;
+    position: absolute;
+    left: -260px;   
+    top:630px; 
+    text-align: center;
+}
+#derechos {
+    position: absolute;
+    bottom: 8px;
+    top: 560px;
+    left: 450px;
+    text-align: center;
 }
 
 .socialw {
@@ -339,20 +368,6 @@ Redes Sociales
     margin-top: -62px;
 }
 
-#redes {
-    position: absolute;
-    right: 420px;
-    top: 250px;
-    text-align: center;
-}
-
-#derechos {
-    position: absolute;
-    bottom: 8px;
-    top: 700px;
-    left: 450px;
-    text-align: center;
-}
 
 
 

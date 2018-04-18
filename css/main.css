@@ -145,6 +145,38 @@ Galeria
 
 
 
+
+
+/*========================================
+Informacion
+=============================================*/
+#informacion{
+height: 800px;
+text-align: center;
+}
+p{
+    font-family: Verdana;
+    font-size: 25px;
+    position: relative;
+    top:-200px;
+    left:150px;
+    width: 1000px;
+}
+#quienes1 img{
+border-radius: 70%;
+ width: 280px;
+ position: relative;
+ right: 300px;
+}
+#quienes2 img{
+    position: relative;
+    top:-350px;
+    left: 230px;
+border-radius: 70%;
+ width: 350px;
+}
+
+
 /*========================================
 Formulario
 =============================================*/
@@ -189,21 +221,6 @@ Formulario
     color: #777;
 }
 
-
-
-
-/*========================================
-Informacion
-=============================================*/
-#informacion{
-
-    text-align: center;
-}
-
-#informacion img{
-border-radius: 30%;
- width: 300px;
-}
 
 
 

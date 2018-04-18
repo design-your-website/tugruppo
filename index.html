@@ -41,6 +41,9 @@
     <!--=====================================
     GALERIA
     ======================================<-->
+    <hr>
+    <center><h1>Generos</h1></center>
+    <hr>
     <div id="galeria" class="row">
         <ul>
             <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><a href="salsa.html"><img src="img/Artistas/Artistas2.png"></a></li>
@@ -87,31 +90,31 @@
             <hr>
         </center>
     </h1>
-        <div action="Formulario.php" class="row">
+        <div action="Mail.php" class="row">
             <form class="col s12" method="post" onsubmit="return m.validarFormulario()">
                 <h3>Ingrese sus datos</h3>
                 <div class="row">
                     <div class="input-field col s3">
                         <i class="material-icons prefix">account_circle</i>
-                        <input id="icon_prefix" type="text" class="validate">
+                        <input name="nombre" id="icon_prefix" type="text" class="validate">
                         <label for="icon_prefix">Ingrese su Nombre</label>
                     </div>
                     <div class="row">
                         <div class="input-field col s3">
                             <i class="material-icons prefix">phone</i>
-                            <input id="icon_telephone" type="tel" class="validate">
+                            <input name="telefono" id="icon_telephone" type="tel" class="validate">
                             <label for="icon_telephone">Ingrese su Telefono</label>
                         </div>
                     </div>
                     <div class="input-field col s3">
                         <i class="material-icons prefix">email</i>
-                        <input id="icon_email" type="tel" class="validate">
+                        <input name="correo" id="icon_email" type="tel" class="validate">
                         <label for="icon_email">Ingrese su Email</label>
                     </div>
                     <div class="row">
                         <div class="input-field col s3">
                             <i class="material-icons prefix">message</i>
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <textarea name="mensaje" id="textarea1" class="materialize-textarea"></textarea>
                             <label for="textarea1">Dejanos un Mensaje</label>
                         </div>
                     </div>

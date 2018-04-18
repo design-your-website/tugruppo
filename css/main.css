@@ -227,10 +227,11 @@ Formulario
 /*========================================
 Redes Sociales
 =============================================*/
-footer{
+#pie{
     background-color: rgb(218, 218, 218); 
     height: 670px;
 }
+
 #datos{
     position: relative;
     left: 275px;
@@ -253,13 +254,20 @@ footer{
     font-size: 5px;
     position: absolute;
     left: -260px;   
-    top:630px; 
+    top:730px; 
     text-align: center;
 }
 #derechos {
     position: absolute;
     bottom: 8px;
     top: 560px;
+    left: 450px;
+    text-align: center;
+}
+#derechos1 {
+    position: absolute;
+    bottom: 8px;
+    top: 920px;
     left: 450px;
     text-align: center;
 }

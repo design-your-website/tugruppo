@@ -76,13 +76,14 @@ inicio
 
 /*=============================================
 SLIDESHOW
+
 =============================================*/
 
 #slide{
     position:relative;
     margin:auto;
     height: 550px;
-    width:1000px;
+    width:78%;
     overflow: hidden;
     border-top-style: solid;
     border-right-style: solid;
@@ -119,7 +120,7 @@ SLIDESHOW
 
 #slide ul li img{
     width:100%;
-     height: 540px;
+    height: 540px;
 }
 
 #slide #paginacion{
@@ -196,7 +197,7 @@ Galeria
 
 #galeria ul {
     position: relative;
-    padding: 20px;
+    
 }
 
 #galeria ul li {
@@ -239,11 +240,17 @@ Reseña mister
 }
 #videos_finales{
     position: relative;
-    right: -100px;
+    
+}
+#videos_finales01{
+    position: relative;
+    left: 100px;
+    width: 1200px; 
 }
 #boton_form{
     position: relative;
-    right: -655px; 
+    left: 600px;
+    width: 100px;
 }
 
 /*=============================================
@@ -443,8 +450,10 @@ Redes Sociales
 
 /*---- Mister */
 #video{
+      left: 280px;
     text-align: center;
-
+    width: 760px;
+    height: 315px;
 }
 
 

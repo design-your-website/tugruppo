@@ -3127,7 +3127,7 @@ td, th {
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%;
+   /*padding-bottom: 56.25%;*/
   height: 0;
   overflow: hidden;
 }
@@ -3369,7 +3369,8 @@ nav ul a span.badge {
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 90%;
+  width: 760px;
+  height: 315px;
 }
 
 @media only screen and (min-width: 601px) {

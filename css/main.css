@@ -256,6 +256,9 @@ Reseña mister
 /*=============================================
 Formulario
 =============================================*/
+#inicioFormulario{
+    color:white;
+}
 
 #formulario form{
     position: relative;
@@ -277,7 +280,7 @@ Formulario
     display: block;
     position: relative;
     width: 100%;
-    padding: 10px;
+    
     font-size: 14px;
 
 }
@@ -286,29 +289,7 @@ Formulario
     color:#777;
 }
 
-#formulario input[type="checkbox"],#formulario input[type="radio"]{
-    display: none;
-}
 
-#formulario label.box span,#formulario label.radio span{
-    display:inline-block;
-    width: 25px;
-    height: 25px;
-    background: white;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-#formulario label.radio span{
-     border-radius: 100%;
-}
-
-#formulario input[type="checkbox"]:checked + label.box span{
-    background: url(../img/box.jpg);
-}
-
-#formulario input[type="radio"]:checked + label.radio span{
-    background: url(../img/radio.jpg);
-}
 /*========================================
 Footer
 =============================================*/

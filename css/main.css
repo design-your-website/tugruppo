@@ -450,12 +450,27 @@ Redes Sociales
 
 /*---- Mister */
 #video{
-      left: 280px;
+    left: 280px;
     text-align: center;
     width: 760px;
     height: 315px;
 }
-
+/*---- disanto */
+#videodi{
+    position: relative;
+    left: 300px;
+    text-align: center;
+    width: 760px;
+    height: 315px;
+}
+/*---- luistsong */
+#videoluis{
+    position: relative;
+    left: 300px;
+    text-align: center;
+    width: 760px;
+    height: 315px;
+}
 
 /*=============================================
 PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc

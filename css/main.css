@@ -471,6 +471,22 @@ Redes Sociales
     width: 760px;
     height: 315px;
 }
+/*---- carlos */
+#videocarlos{
+    position: relative;
+    left: 300px;
+    text-align: center;
+    width: 760px;
+    height: 315px;
+}
+/*---- snap */
+#videosnap{
+    position: relative;
+    left: 300px;
+    text-align: center;
+    width: 760px;
+    height: 315px;
+}
 
 /*=============================================
 PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc

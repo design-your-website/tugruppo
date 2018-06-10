@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -27,34 +28,25 @@
 
     <!--=====================================
     nav
-
-cropped-Logo2-32x32
-
-
-
-
-
       ======================================-->
 
 
 <nav>
   <div class="nav-wrapper">
       <img src"img/Artistas/cropped-Logo2-32x32.png" class="brand-logo"></img>
-      <ul  class="left hide-on-med-and-down">
-        <li><a href="sass.html">Inicio</a></li>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="badges.html">Contrataciones</a></li>
         <li><a href="collapsible.html">Patrocinadores</a></li>
         <li><a href="collapsible.html">Artistas</a></li>
         <li><a href="contacto.html">Contactos</a></li>
-        <li><a href="quienessomos.html">Quienes Somos</a></li>
-
-            
+        <li><a href="quienessomos.html">Quienes Somos</a></li>           
       </ul>
     </div>
 </nav>
-   
+
 <!--=====================================
-      Formulario
+      Formulario action="email.php"
       ======================================-->
     <h1 id="inicioFormulario" class="row titulos">
         <center>
@@ -64,49 +56,42 @@ cropped-Logo2-32x32
         </center>
     </h1>
 
-    <div id="formulario" action="Formulario.php" class="row">
+    <div id="formulario" class="row">
 
-      <form method="post" onsubmit="return m.validarFormulario()">
+      <form  method="post" onsubmit="return m.validarFormulario()">
 
         <h1>Ingrese sus datos</h1>
 
         <label for="nombre">Ingrese su Nombre <span class="obligatorio">*Campo obligatorio</span></label>
-        <input id="nombre" class="validar" type="text" placeholder="Escriba su usuario con minimo 2 caracteres, maximo 6 caracteres">
+        <input id="nombre" name="nombre" class="validar" type="text" placeholder="Escriba su Nombre">
 
         <label for="email">Ingrese su correo electronico <span class="obligatorio">*Campo obligatorio</span></label>
-        <input id="email" class="validar" type="text" placeholder="Escriba su correo electronico">
+        <input id="email" name="email" class="validar" type="text" placeholder="Escriba su correo electronico">
 
-        <label for="password">Ingrese su Direccion <span class="obligatorio">*Campo obligatorio</span></label>
-        <input id="password" class="validar" type="password" placeholder="Escriba su contraseña con minimo 8 caracteres y debe incluir letras en mayuscula, en minuscula y numeros" maxlength="10">
+        <label for="direccion">Ingrese su Direccion <span class="obligatorio">*Campo obligatorio</span></label>
+        <input id="direccion" name="direccion" class="validar" type="text" placeholder="Escriba su direccion" maxlength="10">
 
-        <label for="nombre">Ingrese su Telefono <span class="obligatorio">*Campo obligatorio</span></label>
-        <input id="nombre" class="validar" type="text" placeholder="Escriba su usuario con minimo 2 caracteres, maximo 6 caracteres">
+        <label for="telefono">Ingrese su Telefono <span class="obligatorio">*Campo obligatorio</span></label>
+        <input id="telefono" name="telefono" class="validar" type="number" placeholder="Escriba su telefono">
         <br>
 
-        <hr>
+       
 
-        
+        <label for="mensaje">Dejanos un mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="10"></textarea>
 
-   
-        <p>Seleccione forma de pago:</p>
-        <input type="radio" id="efectivo" name="pago" checked>
-        <label for="efectivo" class="with-gap"><span>Efectivo</span></label>
-        <input type="radio" id="credito" name="pago">
-        <label for="credito" class="with-gap"> <span>Credito</span></label>
-
-        <br>
-
-        <hr>
-
-        <label for="mensaje"></label>
-        <textarea id="mensaje" rows="10" required></textarea>
-
-        <input type="checkbox" id="terminos">
+<input type="checkbox" id="terminos">
 
         <label for="terminos" class="box"><a href="README.md" target="README.md">Acepto terminos y condiciones</a></label>
 
+        <br>
+<center>
         <label id="labelEnviar"></label>
-        <input id="enviar" class="btn waves-effect waves-light" type="submit" value="Enviar">
+        <button id="enviar" class="btn waves-effect waves-light" type="submit" name="action">Enviar
+    <i class="material-icons right">send</i>
+  </button>
+        </center>
+        
       </form>
 
 
@@ -150,6 +135,7 @@ cropped-Logo2-32x32
     <script src="libs/jquery-3.3.1.js"></script>
     <script src="libs/jquery.sticky.js"></script>
     <script src="libs/materialize/js/materialize.min.js"></script>
+    <script src="js/validacion.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slide.js"></script>
 </body>

@@ -64,7 +64,7 @@ var m = {
 
     		case "nombre":
 
-    		if(p.valor.length < 2 || p.valor.length > 6){
+    		if(p.valor.length < 6 || p.valor.length > 30){
 
     			document.querySelector("[for="+input.target.id+"] .error").innerHTML = '<span style="color:red">*Error al ingresar los datos: '+input.target.placeholder+'</span>';
 

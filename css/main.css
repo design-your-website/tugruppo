@@ -279,7 +279,7 @@ Formulario
 #formulario input, #formulario label, #formulario textarea, #formulario p, #formulario select{
     display: block;
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     
     font-size: 14px;
 

@@ -58,7 +58,7 @@
 
     <div id="formulario" class="row">
 
-      <form  method="post" onsubmit="return m.validarFormulario()">
+      <form  method="post" action="email.php" onsubmit="return m.validarFormulario()">
 
         <h1>Ingrese sus datos</h1>
 
@@ -69,7 +69,7 @@
         <input id="email" name="email" class="validar" type="text" placeholder="Escriba su correo electronico">
 
         <label for="direccion">Ingrese su Direccion <span class="obligatorio">*Campo obligatorio</span></label>
-        <input id="direccion" name="direccion" class="validar" type="text" placeholder="Escriba su direccion" maxlength="10">
+        <input id="direccion" name="direccion" class="validar" type="text" placeholder="Escriba su direccion" maxlength="40">
 
         <label for="telefono">Ingrese su Telefono <span class="obligatorio">*Campo obligatorio</span></label>
         <input id="telefono" name="telefono" class="validar" type="number" placeholder="Escriba su telefono">
@@ -85,16 +85,34 @@
         <label for="terminos" class="box"><a href="README.md" target="README.md">Acepto terminos y condiciones</a></label>
 
         <br>
+<br>
 <center>
         <label id="labelEnviar"></label>
-        <button id="enviar" class="btn waves-effect waves-light" type="submit" name="action">Enviar
+        <button id="enviar" class="btn waves-effect waves-light" type="submit" name="action">Envianos tus Datos
     <i class="material-icons right">send</i>
   </button>
         </center>
         
       </form>
-
-
+         <center>
+<form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+  <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_mediano.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+  <input name="buttonId" type="hidden" value="XLNR7lEkFi7l+9mmDdwSR7k2JdImUVnhHZEQ4fsZX2y1TqUpxpi4TA=="/>
+  <input name="merchantId" type="hidden" value="679216"/>
+  <input name="accountId" type="hidden" value="681987"/>
+  <input name="description" type="hidden" value="Servicio de contratación "/>
+  <input name="referenceCode" type="hidden" value="01"/>
+  <input name="amount" type="hidden" value="10000"/>
+  <input name="tax" type="hidden" value="0"/>
+  <input name="taxReturnBase" type="hidden" value="0"/>
+  <input name="currency" type="hidden" value="COP"/>
+  <input name="lng" type="hidden" value="es"/>
+  <input name="displayShippingInformation" type="hidden" value="NO"/>
+  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+  <input name="buttonType" value="SIMPLE" type="hidden"/>
+  <input name="signature" value="e288fad51f058bb5e40d248584e3d1ea2b569ec86fd921a799a46170c42402f9" type="hidden"/>
+</form>
+   </center>
 
     </div>
   </div>

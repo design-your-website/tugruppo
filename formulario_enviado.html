@@ -53,14 +53,12 @@
 <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
     <h1>El formulario se envio de forma correcta</h1>
     <span>Seleccione su forma de pago:</span>
-         <p>
-            <div>
-                        <p>
+          
+                     <label for="pago" name="group1" />
                             <input type="radio" id="seller" checked>
-                            <label for="seller">Pagar con PayU</label>
-                        </p>
-                        
-                    </div>
+                            <span>Pagar con PayU</span>
+                       </label>
+      
                     <center>
   <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_mediano.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
   <input name="buttonId" type="hidden" value="XLNR7lEkFi7l+9mmDdwSR7k2JdImUVnhHZEQ4fsZX2y1TqUpxpi4TA=="/>

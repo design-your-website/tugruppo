@@ -1,7 +1,7 @@
 /*
-MOVIMIENTO DEL SCROLL
+Calendario
 */
+ $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
 
-/*
-dropdown
-*/

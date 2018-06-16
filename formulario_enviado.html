@@ -15,107 +15,98 @@
 </head>
 
 <body>
-<div class="content-fluid">
-
-<video autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50"/>
-  <source src="img/Artistas/SaltoHiperespacio.mp4" type="video/mp4" />
-</video/>
-
-    <!--=====================================
+    <div class="content-fluid">
+        <!--=====================================
+    Video de fondo
+    ======================================-->
+        <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50" />
+        <source src="img/Artistas/SaltoHiperespacio.mp4" type="video/mp4" />
+        </video/>
+        <!--=====================================
     Img inicio
     ======================================-->
-     <img id="img-principal" src="css/images/header01.JPG">
-
-    <!--=====================================
+        <img id="img-principal" src="css/images/header01.JPG">
+        <!--=====================================
     nav
       ======================================-->
-
-
-<nav>
-    <div class="nav-wrapper">
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="index.html">Inicio</a></li>
-            <li><a href="contrataciones.html">Contrataciones</a></li>
-            <li><a href="patrocinadores.html">Patrocinadores</a></li>
-            <li><a href="artistas.html">Artistas</a></li>
-            <li><a href="contacto.html">Contactos</a></li>
-            <li><a href="quienessomos.html">Quienes Somos</a></li>   
-      </ul>
-    </div>
-  </nav>
-
-<!--=====================================
-      Formulario action="email.php"
+        <nav>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="contrataciones.html">Contrataciones</a></li>
+                    <li><a href="patrocinadores.html">Patrocinadores</a></li>
+                    <li><a href="artistas.html">Artistas</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+                    <li><a href="quienessomos.html">Quienes Somos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--=====================================
+      Formulario
       ======================================-->
-      
-            <div id="formulario" class="row">
-
-<form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-    <h1>El formulario se envio de forma correcta</h1>
-    <span>Seleccione su forma de pago:</span>
-          
-                     <label for="pago" name="group1" />
-                            <input type="radio" id="seller" checked>
-                            <span>Pagar con PayU</span>
-                       </label>
-      
-                    <center>
-  <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_mediano.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
-  <input name="buttonId" type="hidden" value="XLNR7lEkFi7l+9mmDdwSR7k2JdImUVnhHZEQ4fsZX2y1TqUpxpi4TA=="/>
-  <input name="merchantId" type="hidden" value="679216"/>
-  <input name="accountId" type="hidden" value="681987"/>
-  <input name="description" type="hidden" value="Servicio de contratación "/>
-  <input name="referenceCode" type="hidden" value="01"/>
-  <input name="amount" type="hidden" value="10000"/>
-  <input name="tax" type="hidden" value="0"/>
-  <input name="taxReturnBase" type="hidden" value="0"/>
-  <input name="currency" type="hidden" value="COP"/>
-  <input name="lng" type="hidden" value="es"/>
-  <input name="displayShippingInformation" type="hidden" value="NO"/>
-  <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
-  <input name="buttonType" value="SIMPLE" type="hidden"/>
-  <input name="signature" value="e288fad51f058bb5e40d248584e3d1ea2b569ec86fd921a799a46170c42402f9" type="hidden"/>
-</form>
-
-</div>
-   </center>
-
+        <div id="formulario" class="row">
+            <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+                <h1>El formulario se envio de forma correcta</h1>
+                <span>Seleccione su forma de pago:</span>
+                <label for="pago" name="group1" />
+                <input type="radio" id="seller" checked>
+                <span>Pagar con PayU</span>
+                </label>
+                <center>
+                    <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_mediano.png" onClick="this.form.urlOrigen.value = window.location.href;" />
+                    <input name="buttonId" type="hidden" value="XLNR7lEkFi7l+9mmDdwSR7k2JdImUVnhHZEQ4fsZX2y1TqUpxpi4TA==" />
+                    <input name="merchantId" type="hidden" value="679216" />
+                    <input name="accountId" type="hidden" value="681987" />
+                    <input name="description" type="hidden" value="Servicio de contratación " />
+                    <input name="referenceCode" type="hidden" value="01" />
+                    <input name="amount" type="hidden" value="10000" />
+                    <input name="tax" type="hidden" value="0" />
+                    <input name="taxReturnBase" type="hidden" value="0" />
+                    <input name="currency" type="hidden" value="COP" />
+                    <input name="lng" type="hidden" value="es" />
+                    <input name="displayShippingInformation" type="hidden" value="NO" />
+                    <input name="sourceUrl" id="urlOrigen" value="" type="hidden" />
+                    <input name="buttonType" value="SIMPLE" type="hidden" />
+                    <input name="signature" value="e288fad51f058bb5e40d248584e3d1ea2b569ec86fd921a799a46170c42402f9" type="hidden" />
+            </form>
+        </div>
+        </center>
     </div>
-  </div>
-
-
-     <footer id="pie">
-                    <table id="tabla">
-                        <tr>
-                            <td id="vinculo">
-                                <div class="socialw fadeInDown">
-                                    <a href="https://www.facebook.com/TuGruppo/?ref=br_rs" target="_blank">
-                                        <div class="social">
-                                            <img src="https://i.imgur.com/PY2EPRW.png" />
-                                        </div>
-                                    </a>
-                                    <a href="https://twitter.com/TuGruppo?lang=es" target="_blank">
-                                        <div class="social">
-                                            <img src="https://i.imgur.com/ny0pyqt.png" /> </div>
-                                    </a>
-                                    <a href="https://www.instagram.com/tugruppo/" target="_blank">
-                                        <div class="social">
-                                            <img src="https://i.imgur.com/tZZG2zQ.png" />
-                                        </div>
-                                    </a>
-                                </div>
-                               </td>
-                        </tr>
-                    </table>
-                </center>
-            </div>
-            <div id="derechos">
-
-                Copyright 2008-2018 by Diseñamostuweb.com All Rights Reserved.
-            </div>
+    </div>
+    <!--=====================================
+    Footer
+    ======================================-->
+    <footer id="pie">
+        <table id="tabla">
+            <tr>
+                <td id="vinculo">
+                    <div class="socialw fadeInDown">
+                        <a href="https://www.facebook.com/TuGruppo/?ref=br_rs" target="_blank">
+                            <div class="social">
+                                <img src="https://i.imgur.com/PY2EPRW.png" />
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/TuGruppo?lang=es" target="_blank">
+                            <div class="social">
+                                <img src="https://i.imgur.com/ny0pyqt.png" /> </div>
+                        </a>
+                        <a href="https://www.instagram.com/tugruppo/" target="_blank">
+                            <div class="social">
+                                <img src="https://i.imgur.com/tZZG2zQ.png" />
+                            </div>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </center>
+        </div>
+        <div id="derechos">
+            Copyright 2008-2018 by Diseñamostuweb.com All Rights Reserved.
+        </div>
         </div>
     </footer>
-</div>
+    </div>
     <script src="libs/jquery-3.3.1.js"></script>
     <script src="libs/jquery.sticky.js"></script>
     <script src="libs/materializeultimaversion/materialize/js/materialize.min.js"></script>

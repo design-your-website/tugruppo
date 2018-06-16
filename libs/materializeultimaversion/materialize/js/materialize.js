@@ -8657,16 +8657,16 @@ $jscomp.polyfill = function (e, r, p, m) {
 
     // internationalization
     i18n: {
-      cancel: 'Cancel',
-      clear: 'Clear',
+      cancel: 'Cancelar',
+      clear: 'Limpiar',
       done: 'Ok',
       previousMonth: '‹',
       nextMonth: '›',
-      months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-      monthsShort: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-      weekdays: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-      weekdaysShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-      weekdaysAbbrev: ['S', 'M', 'T', 'W', 'T', 'F', 'S']
+      months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+      monthsShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+      weekdays: ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'],
+      weekdaysShort: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
+      weekdaysAbbrev: ['D', 'L', 'M', 'X', 'J', 'V', 'S']
     },
 
     // events array

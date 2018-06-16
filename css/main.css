@@ -303,6 +303,7 @@ height: 99px;
   color:#B5B5B5;
   position: relative;
   top: -60px;
+  right: 30px;
 }
 #vinculo{
   height: 79px;
@@ -317,8 +318,13 @@ height: 99px;
 Contacto
 =============================================*/
 #informacion{
+    font-size: 20px;
     text-align: center;
     color:white;
+    font-family: Lora,'Times New Roman',serif;
+    width: 800px;
+    position: relative;
+    right: -280px;
 }
 
 /*========================================

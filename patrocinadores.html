@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Quienes somos</title>
-    <link href="libs/materializeultimaversion/materialize/css/materialize.css" rel="stylesheet">
+    <title>Carlos Duran</title>
+     <link href="libs/materializeultimaversion/materialize/css/materialize.css" rel="stylesheet">
     <link rel="incon" href="img/icono.jpg">
     <link rel=icon href="img/Artistas/cropped-Logo2-32x32.png" sizes="16x16" type="image/png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -14,6 +14,8 @@
 </head>
 
 <body>
+<div class="content-fluid">
+
 <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50"/>
   <source src="img/Artistas/SaltoHiperespacio.mp4" type="video/mp4" />
 </video/>
@@ -21,11 +23,10 @@
     <!--=====================================
     Img inicio
     ======================================-->
-    <img id="img-principal" src="css/images/header01.JPG">
+    <img class="responsive-img" id="img-principal" src="css/images/header01.JPG">
+
     <!--=====================================
     nav
-
-cropped-Logo2-32x32
       ======================================-->
 
 
@@ -41,38 +42,38 @@ cropped-Logo2-32x32
       </ul>
     </div>
   </nav>
-   
-    <!--=====================================
-      Informacion
-======================================-->
-    <div class="row">
-        <div id="informacion">
-            <h1>Quienes somos</h1>
-                <p>
-                    La pagina www.TuGruppo.comes una nueva plataforma​
-                    que busca brindar a los artistas una nueva forma de darse​
-                    a conocer y a su publico una manera mas rápida y segura​
-                    de contratarlos.​
-                    <br>
-                    El sentido principal gira entorno a brindar a los artistas una​
-                    forma fácil y segura de darse a conocer, pudiendo ser​
-                    contratado por su publico de forma optima y rápida. Todo​
-                    esto tratando de motivar su carrera al hacer cada vez​
-                    mas fácil aumentando su publico y a la vez recibiendo un​
-                    pago o retribución a su dedicación.
-                    <br>
-                     Es para esta​
-                    Plataforma www.TuGruppo.com. Un reto el tratar de llegar​
-                    al País y al Mundo con los talentos de nuestros barrios,​
-                    Valles y Montañas ​
-​
 
-                </p>
-            </div>
-        </div>
-    <!--=====================================
-      FOOTER
+<!--=====================================
+   Final    
+  ======================================<-->
+
+    <div id="galeria" class="row">
+
+        <ul>
+            <li class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+               <a href="http://www.ilc.com.co/" target="_blank"> <img src="img/Artistas/licorera.jpg"></a>
+            </li>
+
+<li class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+              <a href=" https://www.youtube.com/channel/UCTe79FjcbZ6OG-Vt1jLnQSw" target="_blank">  <img src="img/Artistas/rh.jpg"></a>
+            </li>
+
+<li class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+               <a href="http://ultraproducciones.com.co/" target="_blank">  <img src="img/Artistas/ultra.png"></a>
+            </li>
+
+             <li class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <img src="img/Artistas/maria.png">
+            </li>
+        </ul>
+       
+    </div>
+    
+
+    <!-=====================================
+      footer
 ======================================-->
+
      <footer id="pie">
                     <table id="tabla">
                         <tr>
@@ -98,16 +99,18 @@ cropped-Logo2-32x32
                     </table>
                 </center>
             </div>
+            <br>
+            <br>
             <div id="derechos">
 
                 Copyright 2008-2018 by Diseñamostuweb.com All Rights Reserved.
             </div>
         </div>
     </footer>
-
+<div>
     <script src="libs/jquery-3.3.1.js"></script>
     <script src="libs/jquery.sticky.js"></script>
-    <script src="libs/materializeultimaversion/materialize/js/materialize.min.js"></script>
+     <script src="libs/materializeultimaversion/materialize/js/materialize.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/slide.js"></script>
 </body>

@@ -269,9 +269,51 @@ Reseña mister
 
 
 /*=============================================
+Formulario enviado
+=============================================*/
+#pago{
+    position: sticky;
+}
+#formulario_enviado form {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    padding: 2%;
+    background: #ddd;
+}
+#formulario_enviado form h1 {
+    width: 100%;
+    line-height: 50px;
+    background: black;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top:-50px;
+}
+#formulario_enviado input,
+#formulario_enviado label,
+#formulario_enviado textarea,
+#formulario_enviado p,
+
+#formulario_enviado select {
+    display: block;
+    position: relative;
+    /* width: 100%; */
+    font-size: 14px;
+    position: relative;
+    top:-50px;
+}
+
+#formulario_enviado label span.obligatorio {
+    opacity: 1;
+    color: #777;
+}
+
+/*=============================================
 Formulario
 =============================================*/
-
 #inicioFormulario {
     color: white;
 }

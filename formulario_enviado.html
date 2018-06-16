@@ -44,22 +44,23 @@
         <!--=====================================
       Formulario
       ======================================-->
-        <div id="formulario" class="row">
+        <div id="formulario_enviado" class="row">
             <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
                 <h1>El formulario se envio de forma correcta</h1>
-                <span>Seleccione su forma de pago:</span>
+                <p>Seleccione su forma de pago:</p>
                 <label for="pago" name="group1" />
                 <input type="radio" id="seller" checked>
                 <span>Pagar con PayU</span>
                 </label>
                 <center>
+                    <div id="pago">
                     <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_mediano.png" onClick="this.form.urlOrigen.value = window.location.href;" />
-                    <input name="buttonId" type="hidden" value="XLNR7lEkFi7l+9mmDdwSR7k2JdImUVnhHZEQ4fsZX2y1TqUpxpi4TA==" />
+                    <input name="buttonId" type="hidden" value="Eme007BFC+QxXiriXl2HC8lByu+2/pvt4L9TGkY9iRQAM/6NSXDv9Q==" />
                     <input name="merchantId" type="hidden" value="679216" />
                     <input name="accountId" type="hidden" value="681987" />
-                    <input name="description" type="hidden" value="Servicio de contratación " />
+                    <input name="description" type="hidden" value="Contratacion" />
                     <input name="referenceCode" type="hidden" value="01" />
-                    <input name="amount" type="hidden" value="10000" />
+                    <input name="amount" type="hidden" value="150000" />
                     <input name="tax" type="hidden" value="0" />
                     <input name="taxReturnBase" type="hidden" value="0" />
                     <input name="currency" type="hidden" value="COP" />
@@ -67,10 +68,12 @@
                     <input name="displayShippingInformation" type="hidden" value="NO" />
                     <input name="sourceUrl" id="urlOrigen" value="" type="hidden" />
                     <input name="buttonType" value="SIMPLE" type="hidden" />
-                    <input name="signature" value="e288fad51f058bb5e40d248584e3d1ea2b569ec86fd921a799a46170c42402f9" type="hidden" />
+                    <input name="signature" value="f43a37e55163564a96a0f3d2299af915c2e4e5e318d512d3c9e11680c23691f3" type="hidden" />
+                </div>
+                </center>
             </form>
         </div>
-        </center>
+        
     </div>
     </div>
     <!--=====================================
